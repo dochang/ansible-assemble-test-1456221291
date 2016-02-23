@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - assemble:
+        dest: /tmp/assemble-test
+        remote_src: no
+        src: testdir
